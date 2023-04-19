@@ -54,7 +54,7 @@ const App = () => {
         <Checkout onClick={handleClick} description/>
         <Payment />
       </main>
-      {/* <Footer /> */}
+      <Footer />
     </InternalProvider>
   );
 };
