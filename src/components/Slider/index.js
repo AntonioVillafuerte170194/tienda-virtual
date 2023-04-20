@@ -46,7 +46,7 @@ const App = () => {
 				</Slide>
 			</Slideshow>
 
-			<Titulo>Productos Destacados</Titulo>
+			{/* <Titulo>Productos Destacados</Titulo>
 			<Slideshow controles={true} autoplay={true} velocidad="3000" intervalo="5000">
 				<Slide>
 					<a href="https://www.falconmaters.com">
@@ -64,7 +64,7 @@ const App = () => {
 						<p>15% descuento en productos Apple</p>
 					</TextoSlide>
 				</Slide>
-			</Slideshow>
+			</Slideshow> */}
 		</main>
 	);
 }

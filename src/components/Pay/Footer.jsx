@@ -1,3 +1,5 @@
+import horLogo from '../img/horizontal_logo.png';
+
 const Footer = () => {
     return (
       <footer>
@@ -5,7 +7,7 @@ const Footer = () => {
           <img
             id="horizontal_logo"
             alt="image of the logo"
-            src="../img/horizontal_logo.png"
+            src={horLogo}
           />
         </div>
         <div className="footer_text">

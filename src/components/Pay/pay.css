@@ -308,7 +308,7 @@ footer {
   padding: 2% 10% 6% 10%;
   margin: 0 auto;
   background-color: white;
-  position: fixed;
+  /* position: fixed; */
   left: 0;
   bottom: 0;
   width: 100%;

@@ -1,6 +1,7 @@
 import React, { useEffect } from "react";
 import classnames from 'classnames'
 import { Context } from "./ContextProvider";
+import product from "../img/product.png";
 
 const Checkout = ({ onClick }) => {
   const [isVisible, setIsVisible] = React.useState(true);
@@ -39,7 +40,7 @@ const Checkout = ({ onClick }) => {
                           <img
                             className="img-fluid mx-auto d-block image"
                             alt="Image of a product"
-                            src="../img/product.png"
+                            src={product}
                           />
                         </div>
                         <div className="col-md-4 product-detail">

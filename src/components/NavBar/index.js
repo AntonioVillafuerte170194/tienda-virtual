@@ -1,12 +1,15 @@
 import React from 'react';
 import './navBar.css';
+import sale from "../logos/favicon_yard_sale.svg";
+import menu from "../icons/icon_menu.svg";
+import cart from "../icons/icon_shopping_cart.svg";
 
 const App = () => {
 	return (
     <nav>
-        <img src="./icons/icon_menu.svg" alt="menu" class="menu"/>
+        <img src={menu} alt="menu" class="menu"/>
         <div class="navbar-left">
-            <img src="./logos/favicon_yard_sale.svg" alt="logo" class="logo"/>
+            <img src={sale} alt="logo" class="logo"/>
             <ul>
                 <li>
                     <a href="/">All</a>
@@ -32,7 +35,7 @@ const App = () => {
             <ul>
                 <li class="navbar-email">example@example.com</li>
                 <li class="navbar-shopping-cart">
-                    <img src="./icons/icon_shopping_cart.svg" alt="shopping-cart"/>
+                    <img src={cart} alt="shopping-cart"/>
                     <div>2</div>
                 </li>
             </ul>
