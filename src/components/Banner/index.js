@@ -1,5 +1,6 @@
 // import { Routes, Route } from "react-router-dom";
-import './Banner.css';
+// import './Banner.css';
+import './templatemo-hexashop1.css'
 
 import image1 from "../img/left-banner-image.jpg";
 import image2 from "../img/baner-right-image-01.jpg";
