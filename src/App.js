@@ -1,18 +1,15 @@
 // import './App.css';
+import { Routes, Route } from "react-router-dom";
 import Pay from './components/Pay';
-import Slide from './components/Slider';
-import NavBar from './components/NavBar';
-import Banner from './components/Banner';
-import Catalogo from './components/Catalogo';
+import Home from './pages/Home';
 
 function App() {
   return (
     <div>
-      <NavBar></NavBar>
-      <Slide></Slide>
-      <Banner></Banner>
-      <Catalogo></Catalogo>
-      <Pay></Pay>
+      <Routes>
+        <Route path="/" element={<Home />} />
+        <Route path="/pay" element={<Pay/>} />
+      </Routes>
     </div>
   );
 }
